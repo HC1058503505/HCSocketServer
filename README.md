@@ -1,7 +1,7 @@
 # HCSocketServer
 HCSocketServer ProtocolBuffer
 
-> 该Demo是基于Swift 3.1来实现的，使用了开源的`ysocket`以及`ProtocolBuffers-Swift`
+> 该Demo是基于Swift 3.1来实现的，使用了开源的`ysocket`以及`ProtocolBuffers-Swift`,客户端请穿越到[HCSocketClient](https://github.com/HC1058503505/HCSocketClient)
 
 # HCSocketServer的使用
 ```swift
