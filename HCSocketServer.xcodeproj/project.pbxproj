@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7001C9BEFA7D51E7805C5A44 /* Pods_HCSocketServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F266A0662A0B7A7E30D171CB /* Pods_HCSocketServer.framework */; };
+		BA47C4031F0B9B9300373DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4021F0B9B9300373DF4 /* AppDelegate.swift */; };
+		BA47C4051F0B9B9300373DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4041F0B9B9300373DF4 /* ViewController.swift */; };
+		BA47C4071F0B9B9400373DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47C4061F0B9B9400373DF4 /* Assets.xcassets */; };
+		BA47C40A1F0B9B9400373DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA47C4081F0B9B9400373DF4 /* Main.storyboard */; };
+		BA47C41C1F0B9BAC00373DF4 /* HCSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4121F0B9BAC00373DF4 /* HCSocketServer.swift */; };
+		BA47C41D1F0B9BAC00373DF4 /* Person.proto in Resources */ = {isa = PBXBuildFile; fileRef = BA47C4141F0B9BAC00373DF4 /* Person.proto */; };
+		BA47C41E1F0B9BAC00373DF4 /* Person.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4151F0B9BAC00373DF4 /* Person.proto.swift */; };
+		BA47C41F1F0B9BAC00373DF4 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4171F0B9BAC00373DF4 /* ysocket.swift */; };
+		BA47C4201F0B9BAC00373DF4 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4181F0B9BAC00373DF4 /* ytcpsocket.c */; };
+		BA47C4211F0B9BAC00373DF4 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C4191F0B9BAC00373DF4 /* ytcpsocket.swift */; };
+		BA47C4221F0B9BAC00373DF4 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = BA47C41A1F0B9BAC00373DF4 /* yudpsocket.c */; };
+		BA47C4231F0B9BAC00373DF4 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47C41B1F0B9BAC00373DF4 /* yudpsocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43E4EEA5CE687EA614E5026C /* Pods-HCSocketServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCSocketServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCSocketServer/Pods-HCSocketServer.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9CA056450A7DBD23C94471 /* Pods-HCSocketServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCSocketServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCSocketServer/Pods-HCSocketServer.release.xcconfig"; sourceTree = "<group>"; };
+		BA47C3FF1F0B9B9300373DF4 /* HCSocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCSocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47C4021F0B9B9300373DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA47C4041F0B9B9300373DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA47C4061F0B9B9400373DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA47C4091F0B9B9400373DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA47C40B1F0B9B9400373DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA47C4121F0B9BAC00373DF4 /* HCSocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCSocketServer.swift; sourceTree = "<group>"; };
+		BA47C4141F0B9BAC00373DF4 /* Person.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Person.proto; sourceTree = "<group>"; };
+		BA47C4151F0B9BAC00373DF4 /* Person.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.proto.swift; sourceTree = "<group>"; };
+		BA47C4171F0B9BAC00373DF4 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		BA47C4181F0B9BAC00373DF4 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		BA47C4191F0B9BAC00373DF4 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		BA47C41A1F0B9BAC00373DF4 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		BA47C41B1F0B9BAC00373DF4 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		F266A0662A0B7A7E30D171CB /* Pods_HCSocketServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCSocketServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA47C3FC1F0B9B9300373DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7001C9BEFA7D51E7805C5A44 /* Pods_HCSocketServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86D527D58F590D4008E8D378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E4EEA5CE687EA614E5026C /* Pods-HCSocketServer.debug.xcconfig */,
+				5F9CA056450A7DBD23C94471 /* Pods-HCSocketServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA47C3F61F0B9B9200373DF4 = {
+			isa = PBXGroup;
+			children = (
+				BA47C4011F0B9B9300373DF4 /* HCSocketServer */,
+				BA47C4001F0B9B9300373DF4 /* Products */,
+				86D527D58F590D4008E8D378 /* Pods */,
+				DD0F4E317E4159CA8E1A91FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA47C4001F0B9B9300373DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA47C3FF1F0B9B9300373DF4 /* HCSocketServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA47C4011F0B9B9300373DF4 /* HCSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				BA47C4111F0B9BAC00373DF4 /* HCSocketServer */,
+				BA47C4131F0B9BAC00373DF4 /* protocolBuf */,
+				BA47C4161F0B9BAC00373DF4 /* ysocket */,
+				BA47C4021F0B9B9300373DF4 /* AppDelegate.swift */,
+				BA47C4041F0B9B9300373DF4 /* ViewController.swift */,
+				BA47C4061F0B9B9400373DF4 /* Assets.xcassets */,
+				BA47C4081F0B9B9400373DF4 /* Main.storyboard */,
+				BA47C40B1F0B9B9400373DF4 /* Info.plist */,
+			);
+			path = HCSocketServer;
+			sourceTree = "<group>";
+		};
+		BA47C4111F0B9BAC00373DF4 /* HCSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				BA47C4121F0B9BAC00373DF4 /* HCSocketServer.swift */,
+			);
+			path = HCSocketServer;
+			sourceTree = "<group>";
+		};
+		BA47C4131F0B9BAC00373DF4 /* protocolBuf */ = {
+			isa = PBXGroup;
+			children = (
+				BA47C4141F0B9BAC00373DF4 /* Person.proto */,
+				BA47C4151F0B9BAC00373DF4 /* Person.proto.swift */,
+			);
+			path = protocolBuf;
+			sourceTree = "<group>";
+		};
+		BA47C4161F0B9BAC00373DF4 /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				BA47C4171F0B9BAC00373DF4 /* ysocket.swift */,
+				BA47C4181F0B9BAC00373DF4 /* ytcpsocket.c */,
+				BA47C4191F0B9BAC00373DF4 /* ytcpsocket.swift */,
+				BA47C41A1F0B9BAC00373DF4 /* yudpsocket.c */,
+				BA47C41B1F0B9BAC00373DF4 /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		DD0F4E317E4159CA8E1A91FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F266A0662A0B7A7E30D171CB /* Pods_HCSocketServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA47C3FE1F0B9B9300373DF4 /* HCSocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA47C40E1F0B9B9400373DF4 /* Build configuration list for PBXNativeTarget "HCSocketServer" */;
+			buildPhases = (
+				C6A7EDD98DABD564B15E6133 /* [CP] Check Pods Manifest.lock */,
+				BA47C3FB1F0B9B9300373DF4 /* Sources */,
+				BA47C3FC1F0B9B9300373DF4 /* Frameworks */,
+				BA47C3FD1F0B9B9300373DF4 /* Resources */,
+				004D4991F80FCBD5F1508BBE /* [CP] Embed Pods Frameworks */,
+				84D87E62C5728B048DD827F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCSocketServer;
+			productName = HCSocketServer;
+			productReference = BA47C3FF1F0B9B9300373DF4 /* HCSocketServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA47C3F71F0B9B9200373DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UltraPower;
+				TargetAttributes = {
+					BA47C3FE1F0B9B9300373DF4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA47C3FA1F0B9B9200373DF4 /* Build configuration list for PBXProject "HCSocketServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA47C3F61F0B9B9200373DF4;
+			productRefGroup = BA47C4001F0B9B9300373DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA47C3FE1F0B9B9300373DF4 /* HCSocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA47C3FD1F0B9B9300373DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47C4071F0B9B9400373DF4 /* Assets.xcassets in Resources */,
+				BA47C40A1F0B9B9400373DF4 /* Main.storyboard in Resources */,
+				BA47C41D1F0B9BAC00373DF4 /* Person.proto in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004D4991F80FCBD5F1508BBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCSocketServer/Pods-HCSocketServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84D87E62C5728B048DD827F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCSocketServer/Pods-HCSocketServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A7EDD98DABD564B15E6133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA47C3FB1F0B9B9300373DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA47C4221F0B9BAC00373DF4 /* yudpsocket.c in Sources */,
+				BA47C4051F0B9B9300373DF4 /* ViewController.swift in Sources */,
+				BA47C4031F0B9B9300373DF4 /* AppDelegate.swift in Sources */,
+				BA47C41E1F0B9BAC00373DF4 /* Person.proto.swift in Sources */,
+				BA47C41F1F0B9BAC00373DF4 /* ysocket.swift in Sources */,
+				BA47C4201F0B9BAC00373DF4 /* ytcpsocket.c in Sources */,
+				BA47C4231F0B9BAC00373DF4 /* yudpsocket.swift in Sources */,
+				BA47C4211F0B9BAC00373DF4 /* ytcpsocket.swift in Sources */,
+				BA47C41C1F0B9BAC00373DF4 /* HCSocketServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA47C4081F0B9B9400373DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA47C4091F0B9B9400373DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA47C40C1F0B9B9400373DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA47C40D1F0B9B9400373DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BA47C40F1F0B9B9400373DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E4EEA5CE687EA614E5026C /* Pods-HCSocketServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HCSocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA47C4101F0B9B9400373DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9CA056450A7DBD23C94471 /* Pods-HCSocketServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HCSocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA47C3FA1F0B9B9200373DF4 /* Build configuration list for PBXProject "HCSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA47C40C1F0B9B9400373DF4 /* Debug */,
+				BA47C40D1F0B9B9400373DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA47C40E1F0B9B9400373DF4 /* Build configuration list for PBXNativeTarget "HCSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA47C40F1F0B9B9400373DF4 /* Debug */,
+				BA47C4101F0B9B9400373DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA47C3F71F0B9B9200373DF4 /* Project object */;
+}
